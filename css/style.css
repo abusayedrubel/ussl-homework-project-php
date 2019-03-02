@@ -1,0 +1,79 @@
+/*Body*/
+body{
+    background: #fff;
+}
+
+/*Header*/
+#header .header-inner{
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+}
+
+nav.navbar-custom{
+    opacity: .8;
+}
+
+#navberId ul li a:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+/*What I Do*/
+#whatDo{
+    background: url('../img/serve.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custom-icon{
+    font-size: 2rem;
+}
+
+#whatDo .custom-card{
+    background: rgba(211,211,211,0.3);
+}
+
+#whatDo .custom-card:hover{
+    background: #2196F3;
+}
+
+/*Projects*/
+#projects .projects-button{
+    display: none;
+}
+
+#projects .card:hover .projects-button{
+    display: block;
+}
+
+/*Counter*/
+#counter{
+    background: url('../img/stats.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Contact*/
+#contact{
+    background: url('../img/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Upper Button */
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	padding-top:10px;
+	display:none;
+}
+#upper i{
+	font-size:1.85rem;
+	color:white;
+	background-color:#4a4747ad;
+	border-radius:100%
+}
