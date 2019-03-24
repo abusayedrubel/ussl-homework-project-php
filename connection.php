@@ -11,7 +11,7 @@
         die('ami Sesh...'.mysqli_connect_error($connect));
     }else{
         return $connect;
-        //echo 'ami parsi';
+        //echo 'ami parsi'; for text purpose
     }
 	
 	mysqli_close($connect);
